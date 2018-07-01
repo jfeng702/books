@@ -21,7 +21,7 @@ body {
   word-wrap: break-word;
   /* min-width: 300px;
   max-width: 1000px; */
-  border: 1px solid #42a5f5;
+  border: 1px solid black;
   background-color: white;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
@@ -35,4 +35,8 @@ body {
   display: block;
 
   margin: 30px auto 0 auto;
+}
+
+h5 span {
+  font-weight: 900;
 }

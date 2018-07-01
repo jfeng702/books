@@ -10,7 +10,7 @@ function mapStateToProps({ books }, ownProps){
   } else {
     book = {title: ''};
   }
-  // debugger;
+  
   return {
     book
   };

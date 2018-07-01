@@ -11,7 +11,9 @@ class Main extends Component {
 
   render() {
     return (
+
       <div className="container center-align photo-container">
+        <h1>Bestselling Books</h1>
         {
           this.props.books.map((book, id) => (
           <Link className='' key={id} to={`/books/${id}`}>
